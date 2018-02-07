@@ -10,7 +10,6 @@ endif
 
 ifeq ($(CHIPSET),)
 CHIPSET = mt7610e
-
 endif
 
 MODULE = $(word 1, $(CHIPSET))
