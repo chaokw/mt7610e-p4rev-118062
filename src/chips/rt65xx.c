@@ -98,7 +98,6 @@ VOID ral_wlan_chip_onoff(
 #ifdef RTMP_MAC_PCI
 	RTMP_SEM_UNLOCK(&pAd->WlanEnLock);
 #endif
-	
 }
 
 VOID dump_bw_info(RTMP_ADAPTER *pAd)
@@ -139,7 +138,6 @@ VOID dump_bw_info(RTMP_ADAPTER *pAd)
 		DBGPRINT(RT_DEBUG_TRACE, ("%s\n", pChipCap->BBPRegisterVer));
 		DBGPRINT(RT_DEBUG_TRACE, ("%s\n\n", pChipCap->RFRegisterVer));
 }
-
 
 #endif /* RT65xx */
 
