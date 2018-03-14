@@ -23,7 +23,6 @@ INT get_pkt_rssi_by_rxwi(RXWI_STRUC *rxwi, INT size, CHAR *rssi)
 			rssi[0] = rxwi->RxWIRSSI0;
 			break;
 	}
-
 	return 0;
 }
 
