@@ -81,7 +81,6 @@ endif
 #RELEASE Package
 RELEASE = DPA
 
-
 ifeq ($(TARGET),LINUX)
 MAKE = make
 endif
