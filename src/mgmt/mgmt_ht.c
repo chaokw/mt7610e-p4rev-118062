@@ -2,13 +2,8 @@
 
 
 */
-
-
 #include "rt_config.h"
-
-
 #ifdef DOT11_N_SUPPORT
-
 
 INT ht_mode_adjust(RTMP_ADAPTER *pAd, MAC_TABLE_ENTRY *pEntry, HT_CAPABILITY_IE *peer, RT_HT_CAPABILITY *my)
 {
