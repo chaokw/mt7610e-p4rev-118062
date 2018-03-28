@@ -630,7 +630,6 @@ INT rtmp_mac_set_ctrlch(RTMP_ADAPTER *pAd, INT extch)
 {
 	UINT32 val, band_cfg;
 
-
 	RTMP_IO_READ32(pAd, TX_BAND_CFG, &band_cfg);
 	val = band_cfg & (~0x1);
 	switch (extch)
