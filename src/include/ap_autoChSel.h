@@ -17,7 +17,6 @@
 
 
  */
-
 #include "ap_autoChSel_cmm.h"
 
 #ifndef __AUTOCHSELECT_H__
