@@ -2,10 +2,7 @@
 
 
 */
-
-
 #include <rt_config.h>
-
 
 INT dev_adjust_radio(RTMP_ADAPTER *pAd)
 {
@@ -31,7 +28,6 @@ INT dev_adjust_radio(RTMP_ADAPTER *pAd)
 		rtmp_bbp_set_ctrlch(pAd, ext_ch);
 		rtmp_mac_set_ctrlch(pAd, ext_ch);	
 	}
-
 	return TRUE;
 }
 
