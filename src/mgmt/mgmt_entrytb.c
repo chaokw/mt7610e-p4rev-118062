@@ -4,7 +4,6 @@
 
 #include <rt_config.h>
 
-
 VOID mgmt_tb_set_mcast_entry(RTMP_ADAPTER *pAd)
 {
 	MAC_TABLE_ENTRY *pEntry = &pAd->MacTab.Content[MCAST_WCID];
@@ -85,7 +84,6 @@ VOID changeTxRetry(
 		DBGPRINT(RT_DEBUG_TRACE, ("txRetryCfg=%x\n", pAd->CommonCfg.txRetryCfg));
 		return ;
 	}
-
 	if (num < 3)
 	{
 		/* Tx date retry default 15 */
