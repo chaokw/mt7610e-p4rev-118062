@@ -116,7 +116,7 @@ BOOLEAN ApCliAllowToSendPacket(
 	IN PNDIS_PACKET pPacket,
 	OUT UCHAR		*pWcid);
 	
-BOOLEAN 	ApCliValidateRSNIE(
+BOOLEAN ApCliValidateRSNIE(
 	IN		PRTMP_ADAPTER	pAd, 
 	IN 		PEID_STRUCT    	pEid_ptr,
 	IN		USHORT			eid_len,
