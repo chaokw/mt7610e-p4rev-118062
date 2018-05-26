@@ -256,11 +256,7 @@ VOID RT28xx_ApCli_Remove(
 	IN VOID *pAd)
 {
 /*	UINT index; */
-
-
 	RTMP_AP_IoctlHandle(pAd, NULL, CMD_RTPRIV_IOCTL_APC_REMOVE, 0, NULL, 0);
-
-
 }
 
 #endif /* APCLI_SUPPORT */
