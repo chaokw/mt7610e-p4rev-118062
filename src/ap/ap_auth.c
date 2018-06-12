@@ -36,12 +36,12 @@ static VOID APPeerDeauthReqAction(
     IN MLME_QUEUE_ELEM *Elem);
 
 static VOID APPeerAuthReqAtIdleAction(
-	IN PRTMP_ADAPTER pAd,
-	IN MLME_QUEUE_ELEM *Elem);
+    IN PRTMP_ADAPTER pAd,
+    IN MLME_QUEUE_ELEM *Elem);
 
 static VOID APPeerAuthConfirmAction(
-	IN PRTMP_ADAPTER pAd,
-	IN MLME_QUEUE_ELEM *Elem);
+    IN PRTMP_ADAPTER pAd,
+    IN MLME_QUEUE_ELEM *Elem);
 
 static VOID APPeerAuthSimpleRspGenAndSend(
     IN  PRTMP_ADAPTER   pAd, 
